@@ -1,0 +1,97 @@
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    background-color: #f4f4f4;
+  }
+  
+
+  .title h1 {
+    text-align: center;
+    color: #333;
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .add-input-filed input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #bdbdbb;
+    border: 1px solid teal;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+ 
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: teal;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .todotask {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todotask-li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-name {
+    font-size: 16px;
+    color: #333;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+ 
+  .update-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .update-btn {
+    background-color: #ffc107;
+    color: #fff;
+  }
+ 
+  .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+    margin-left: 5px;
+  }
+ 
